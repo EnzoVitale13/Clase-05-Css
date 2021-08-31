@@ -36,9 +36,10 @@ div{
 
 /* Podemos combinar! ahora es (0,1,1) */
 /* No es recomendado hacer esto */
-p.textolorem{
+p.textoLorem{
     background-color: yellow;
 }
+
 
 /* important pasa por encima de todo! ahora es (1,0,1,0) */
 .noHaganesto {
