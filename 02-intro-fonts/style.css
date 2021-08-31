@@ -1,0 +1,17 @@
+/* podemos poner el mismo estilo a varias cosas distintas separando con una coma */
+
+h1,p {
+    color: tomato;
+    font-family: 'Azeret Mono', monospace;
+}
+
+/* font weight no es lo mismo que tama;o. Es el peso, no el tama;o, no lleva medidas */
+h1{
+    font-weight: 100;
+}
+
+/* Cuando tienen el mismo peso, eligen al ultimo valor */
+p{
+    color: plum;
+    font-weight: 900;
+}

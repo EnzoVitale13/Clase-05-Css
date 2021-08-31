@@ -1,0 +1,27 @@
+body{
+    background-color: teal;
+    margin: 0;
+}
+div{
+    background-color: paleturquoise;
+    /* arriba, derecha, abajo, izquierda */
+    margin: 4% 15% 3% 10%;
+    padding: 0 5%;
+    /* border radius si lo ponemos en pixeles!!! */
+    border-radius: 10px;
+}
+
+/* el orden en el css no afecta los estilos, excepto que tengan el mismo valor de especificidad */
+
+p {
+    color: orangered;
+}
+
+div p {
+    color: rebeccapurple;
+}
+
+
+.lorem{
+    color: peru;
+}
